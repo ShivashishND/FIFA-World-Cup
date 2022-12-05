@@ -6,7 +6,7 @@
 - We have data of all international matches played since the 1993
 - Most importantly we want to visualize the data and display different stats of world cup and internatiuonal matches and also predict what team is most likely to win the 2022 FIFA World Cup.
 
-[View application here](https://docs.streamlit.io/streamlit-cloud/get-started/deploy-an-app#deploy-your-app)
+[View application here](https://shivashishnd-fifa-world-cup-app-n2i03z.streamlit.app/)
 
 References :
 
