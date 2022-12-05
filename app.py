@@ -6,7 +6,6 @@ from sklearn import linear_model
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import PolynomialFeatures
-from tqdm import tqdm
 from collections import Counter
 
 df = pd.read_csv('international_matches.csv')
@@ -394,7 +393,7 @@ if box == 'Prediction':
 
     n_simulations = 1000
 
-    for j in tqdm(range(n_simulations)):
+    for j in range(n_simulations):
         candidates = [ 'Netherlands', 'Senegal', 'England','USA', 'Argentina', 'Poland', 'France', 'Australia','Japan', 'Spain', 'Morocco', 'Croatia', 'Brazil', 'Switzerland', 'Portugal','Korea Republic']
         finals = ['round_of_16', 'quarterfinal', 'semifinal', 'final']
         for f in finals:
